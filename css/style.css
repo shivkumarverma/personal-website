@@ -65,7 +65,7 @@ p{
 }
 .top-cloud{
   position:absolute;
- transform: translateX(120px);
+ transform: translateX(150px);
  transform:translateY(0);
 }
 .bottoom-cloud{
