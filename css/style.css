@@ -58,19 +58,22 @@ p{
   padding:50px;
 }
 .shiv{
-  background-color: #e4f9f5;
-  padding-top: 5%;
+ background-color: #e4f9f5;
+ position: relative;
+ padding-top:20px;
+ padding-right: 20px;
 }
-.top-cloud{display: inline;
+.top-cloud{
   position:absolute;
-right:400px;
-top:50px;
+ transform: translateX(120px);
+ /*transform:translateY(0);*/
 }
 .bottoom-cloud{
-  display: inline;
   position:absolute;
-  left:350px;
-  bottom:400px;
+  transform: translateX(5%);
+  transform:translateY(0);
+
+
 }
 .bottom-container{
     background-color: #66bfbf;
